@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36127.28 d17.14
+VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSITurnamentManagement", "KSITurnamentManagement\KSITurnamentManagement.csproj", "{4B486640-0EFD-4967-BF9D-7C6E542D483B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KSITournamentManagement", "KSITournamentManagement\KSITournamentManagement.csproj", "{4B486640-0EFD-4967-BF9D-7C6E542D483B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnamentManagement", "TurnamentManagement\TurnamentManagement.csproj", "{E20683F8-956C-49EF-8622-C96FCFD012DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentManagement", "TournamentManagement\TournamentManagement.csproj", "{E20683F8-956C-49EF-8622-C96FCFD012DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

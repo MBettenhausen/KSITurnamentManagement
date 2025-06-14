@@ -1,7 +1,7 @@
-﻿namespace TurnamentManagement
+﻿namespace TournamentManagement
 {
 
-    public interface ITurnament
+    public interface ITournament
     {
         string Name { get; }
 
@@ -10,7 +10,7 @@
         int NumberOfPlayers { get; }
     }
 
-    public class Turnament: ITurnament
+    public class Tournament: ITournament
     {
         public string Name { get; }
 
@@ -18,7 +18,7 @@
 
         public int NumberOfPlayers => this.Players.Count();
 
-        public Turnament(String name, IEnumerable<IPlayer> players)
+        public Tournament(String name, IEnumerable<IPlayer> players)
         {
             Name = name;
             Players = players;

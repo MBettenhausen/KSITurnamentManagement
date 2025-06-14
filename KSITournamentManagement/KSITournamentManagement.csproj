@@ -14,17 +14,17 @@
 		<!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
 
 		<OutputType>Exe</OutputType>
-		<RootNamespace>KSITurnamentManagement</RootNamespace>
+		<RootNamespace>KSITournamentManagement</RootNamespace>
 		<UseMaui>true</UseMaui>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>KSITurnamentManagement</ApplicationTitle>
+		<ApplicationTitle>KSITournamentManagement</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.ksiturnamentmanagement</ApplicationId>
+		<ApplicationId>com.companyname.ksitournamentmanagement</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -65,7 +65,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\TurnamentManagement\TurnamentManagement.csproj" />
+	  <ProjectReference Include="..\TournamentManagement\TournamentManagement.csproj" />
 	</ItemGroup>
 
 </Project>

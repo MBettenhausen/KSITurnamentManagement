@@ -1,5 +1,5 @@
 ﻿
-namespace TurnamentManagement
+namespace TournamentManagement
 {
     public interface IPlayer
     {

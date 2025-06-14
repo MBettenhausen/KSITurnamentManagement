@@ -1,4 +1,4 @@
-﻿using TurnamentManagement;
+﻿using TournamentManagement;
 namespace KSITurnamentManagement
 {
     public partial class MainPage : ContentPage

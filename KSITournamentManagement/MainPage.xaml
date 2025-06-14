@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:local="clr-namespace:KSITurnamentManagement"
-             xmlns:turnament="clr-namespace:TurnamentManagement;assembly=TurnamentManagement"
+             xmlns:turnament="clr-namespace:TournamentManagement;assembly=TurnamentManagement"
              x:Class="KSITurnamentManagement.MainPage"
              x:DataType="local:MainPageViewModel">
 
@@ -15,10 +15,11 @@
                 Text="Turnaments"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
+            
 
-            <ListView ItemsSource="{Binding Turnaments}">
+                <ListView ItemsSource="{Binding Turnaments}">
                 <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="turnament:ITurnament">
+                    <DataTemplate x:DataType="turnament:ITournament">
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="10">
                                 <Label Text="{Binding Name}" FontSize="20" VerticalOptions="Center" />
