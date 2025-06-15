@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

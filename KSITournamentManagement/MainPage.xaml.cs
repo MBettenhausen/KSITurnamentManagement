@@ -1,5 +1,5 @@
 ﻿using TournamentManagement;
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     public partial class MainPage : ContentPage
     {

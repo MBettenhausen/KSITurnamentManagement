@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     public class Program
     {

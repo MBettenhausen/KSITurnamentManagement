@@ -7,8 +7,4 @@ namespace TournamentManagement
         string Name { get; }
         IRating Rating { get; }
     }
-
-    public interface IRating
-    {
-    }
 }

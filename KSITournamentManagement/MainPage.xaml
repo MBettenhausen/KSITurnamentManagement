@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-              xmlns:local="clr-namespace:KSITurnamentManagement"
-             xmlns:turnament="clr-namespace:TournamentManagement;assembly=TurnamentManagement"
-             x:Class="KSITurnamentManagement.MainPage"
+              xmlns:local="clr-namespace:KSITournamentManagement"
+             xmlns:tournament="clr-namespace:TournamentManagement;assembly=TournamentManagement"
+             x:Class="KSITournamentManagement.MainPage"
              x:DataType="local:MainPageViewModel">
 
     <ScrollView>
@@ -12,14 +12,14 @@
             Spacing="25">
 
             <Label
-                Text="Turnaments"
+                Text="Tournaments"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
             
 
                 <ListView ItemsSource="{Binding Turnaments}">
                 <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="turnament:ITournament">
+                    <DataTemplate x:DataType="tournament:ITournament">
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" Padding="10">
                                 <Label Text="{Binding Name}" FontSize="20" VerticalOptions="Center" />

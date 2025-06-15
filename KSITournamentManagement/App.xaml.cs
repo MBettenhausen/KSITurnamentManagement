@@ -1,4 +1,4 @@
-﻿namespace KSITurnamentManagement
+﻿namespace KSITournamentManagement
 {
     public partial class App : Application
     {

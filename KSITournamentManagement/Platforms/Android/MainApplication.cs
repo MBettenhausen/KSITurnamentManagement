@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     [Application]
     public class MainApplication : MauiApplication

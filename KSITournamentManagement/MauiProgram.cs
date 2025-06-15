@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     public static class MauiProgram
     {

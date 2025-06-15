@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="KSITurnamentManagement.AppShell"
+    x:Class="KSITournamentManagement.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:KSITurnamentManagement"
-    Title="KSITurnamentManagement">
+    xmlns:local="clr-namespace:KSITournamentManagement"
+    Title="KSITournamentManagement">
 
     <ShellContent
         Title="Home"

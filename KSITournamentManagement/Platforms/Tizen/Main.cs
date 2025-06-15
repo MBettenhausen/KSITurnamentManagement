@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace KSITurnamentManagement
+namespace KSITournamentManagement
 {
     internal class Program : MauiApplication
     {
