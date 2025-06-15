@@ -1,0 +1,45 @@
+@startuml
+interface ITournament{
+    Id : Guid
+    Name : string
+    Players : IEnumerable<IPlayer>
+}
+interface IPlayer{
+    Id : Guid
+    Name : string
+    Rating : IRating
+}
+interface IRound{
+    Matches : IEnumerable<IMatch>
+}
+interface IMatch{
+    Player1 : IPlayer
+    Player2 : IPlayer
+    Games : IEnumerable<IGame>
+}
+interface IGame{
+    Result : IGameResult
+}
+interface IRating{}
+interface ILorcanaRating{}
+interface IMESBGRating{}
+interface IGameResult{}
+interface ILorcanaGameResult{
+    Winner : IPlayer
+}
+interface IMESBGGameResult{
+    Player1Points : int
+    Player2Points : int
+}
+
+IRating <-- ILorcanaRating
+IRating <-- IMESBGRating
+IGameResult <-- ILorcanaGameResult
+IGameResult <-- IMESBGGameResult
+IPlayer "1"--"1" IRating
+ITournament "1" -- "n" IPlayer
+ITournament "1" -- "n" IRound
+IRound "1" -- "n" IMatch
+IMatch "1" -- "n" IGame
+IGame "1" -- "1" IGameResult
+@enduml
