@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net9.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>Windows-Subsystem für Android (Android 13.0 - API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>Android Emulator</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>Windows-Subsystem für Android</DefaultDevice>
   </PropertyGroup>

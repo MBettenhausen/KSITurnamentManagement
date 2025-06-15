@@ -1,14 +1,6 @@
-﻿namespace TournamentManagement
+﻿
+namespace TournamentManagement
 {
-
-    public interface ITournament
-    {
-        string Name { get; }
-
-        IEnumerable<IPlayer> Players { get; }
-
-        int NumberOfPlayers { get; }
-    }
 
     public class Tournament: ITournament
     {
@@ -23,22 +15,5 @@
             Name = name;
             Players = players;
         }
-    }
-
-    public class Player : IPlayer
-    {
-        public string Name { get; }
-        public Guid Id { get; }
-
-        public Player(string name)
-        {
-            Name = name;
-            this.Id = Guid.NewGuid();
-        }
-    }
-    public class Match { }
-    public class  Round
-    {
-        
     }
 }
